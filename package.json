@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "author": "Max De La Rosa Toro <mdelarosatoroag@gmail.com>",
   "scripts": {
-    "dev": "nodemon index.ts"
+    "dev": "nodemon index.ts",
+    "start": "tsc && node index.js"
   },
   "dependencies": {
     "@types/node-telegram-bot-api": "^0.61.6",

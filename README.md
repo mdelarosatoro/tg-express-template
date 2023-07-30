@@ -1,5 +1,7 @@
 # Telegram Express Template
 
+This is a simple boilerplate to create an Typescript Express application that uses the [node-telegram-bot-api](https://www.npmjs.com/package/node-telegram-bot-api) package to create a Telegram bot.
+
 ## Set up
 
 To use this package, it is important to configure the appropriate environment variables. You can check out the `.env.sample` file to see the required variables.
@@ -22,3 +24,24 @@ bot.on('message', async (msg: TelegramBot.Message) => {
   }
 });
 ```
+
+## Development
+
+To run the application locally, you can use the `npm run dev` command.
+
+## Deployment
+
+To start the application in production mode, you can use the `npm run start` command.
+
+## Dependencies
+
+This template uses the following dependencies:
+
+- [dotenv](https://www.npmjs.com/package/dotenv)
+- [express](https://www.npmjs.com/package/express)
+- [node-telegram-bot-api](https://www.npmjs.com/package/node-telegram-bot-api)
+- [ts-node](https://www.npmjs.com/package/ts-node)
+- [typescript](https://www.npmjs.com/package/typescript)
+- [helmet](https://www.npmjs.com/package/helmet)
+- [morgan](https://www.npmjs.com/package/morgan)
+- [cors](https://www.npmjs.com/package/cors)
