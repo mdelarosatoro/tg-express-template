@@ -2,6 +2,14 @@
 
 This is a simple boilerplate to create an Typescript Express application that uses the [node-telegram-bot-api](https://www.npmjs.com/package/node-telegram-bot-api) package to create a Telegram bot.
 
+## Instalation
+
+To use this template, you can use the CLI to create a new project.
+
+```bash
+npx tg-express-template-cli <project-name>
+```
+
 ## Set up
 
 To use this package, it is important to configure the appropriate environment variables. You can check out the `.env.sample` file to see the required variables.
