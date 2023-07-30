@@ -5,8 +5,9 @@
   "license": "MIT",
   "author": "Max De La Rosa Toro <mdelarosatoroag@gmail.com>",
   "scripts": {
-    "dev": "nodemon index.ts",
-    "start": "tsc && node index.js"
+    "start": "tsc && node src/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "@types/node-telegram-bot-api": "^0.61.6",
