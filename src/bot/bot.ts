@@ -16,6 +16,10 @@ if (DEPLOY_URL) {
   });
 }
 
+bot.onText(/\/start/, async (msg: TelegramBot.Message) => {
+  return bot.sendMessage(msg.chat.id, `Welcome to your new bot!`);
+});
+
 bot.on('message', async (msg: TelegramBot.Message) => {
   try {
     const sentMessage = await bot.sendMessage(msg.chat.id, 'Hello World!');
