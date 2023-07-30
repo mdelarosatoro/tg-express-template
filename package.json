@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "Max De La Rosa Toro <mdelarosatoroag@gmail.com>",
   "scripts": {
-    "start": "tsc && node src/index.js",
+    "start": "tsc && node dist/index.js",
     "dev": "nodemon src/index.ts",
     "build": "tsc"
   },
