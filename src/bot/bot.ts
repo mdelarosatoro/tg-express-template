@@ -1,4 +1,7 @@
 import TelegramBot from 'node-telegram-bot-api';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const { BOT_TOKEN, DEPLOY_URL } = process.env;
 
